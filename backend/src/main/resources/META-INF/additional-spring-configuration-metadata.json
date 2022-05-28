@@ -1,5 +1,12 @@
-{"properties": [{
-  "name": "server.contextPath",
-  "type": "java.lang.String",
-  "description": "A description for 'server.contextPath'"
-}]}
+{"properties": [
+  {
+    "name": "server.contextPath",
+    "type": "java.lang.String",
+    "description": "A description for 'server.contextPath'"
+  },
+  {
+    "name": "server.contextPath",
+    "type": "java.lang.String",
+    "description": "A description for 'server.contextPath'"
+  }
+]}

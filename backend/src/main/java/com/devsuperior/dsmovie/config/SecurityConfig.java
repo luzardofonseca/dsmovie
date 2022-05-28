@@ -32,7 +32,13 @@ protected void configure(HttpSecurity http) throws Exception {
 		http.cors().and().csrf().disable();
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		http.authorizeRequests().anyRequest().permitAll();
+		
+//		http.authorizeRequests()
+//        .antMatchers("/h2-console/**").permitAll()
+//        .anyRequest().authenticated();
+//		http.headers().frameOptions().sameOrigin();
 	}
+
 	@Bean
 	CorsConfigurationSource corsConfigurationSource() {
 		CorsConfiguration configuration = new CorsConfiguration().applyPermitDefaultValues();
