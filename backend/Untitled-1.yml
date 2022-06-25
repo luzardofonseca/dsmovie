@@ -1,0 +1,10 @@
+postgres://
+user: selehudaelqird
+:
+senha: cf55d0852349c0a6e7c133e48ff06fb5a7420879b29d8fd974d103b99a619e3f
+@
+host: ec2-52-72-56-59.compute-1.amazonaws.com
+:
+5432
+/
+datbase: dfd2l9ibe2unmf
