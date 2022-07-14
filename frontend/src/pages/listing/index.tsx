@@ -1,6 +1,6 @@
 import './styles.css';
 import Pagination from "../../components/pagination";
-import MovieCard from 'components/moviecard';
+import MovieCard from '../../components/moviecard';
 
 function listing() {
 
